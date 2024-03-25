@@ -1,0 +1,73 @@
+/* register.css */
+
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .sub {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type='text']:focus {
+    border-color: #007bff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:black;
+  }
+  
+ /* register.css */
+
+.btn-submit {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn-submit input[type='submit'] {
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-submit input[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .link {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: blue; /* Text color */
+    text-decoration:none;
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .link:hover {
+    color: darkblue; /* Change text color on hover */
+  }

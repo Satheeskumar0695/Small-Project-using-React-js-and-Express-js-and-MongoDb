@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Centers text inside the container */
+  }
+  
+  .button {
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #003366;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: navy;
+    margin-bottom: 20px;
+  }
+  
